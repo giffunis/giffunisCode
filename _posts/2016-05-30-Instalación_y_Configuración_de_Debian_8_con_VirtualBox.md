@@ -15,31 +15,31 @@ En esta ocasión, se trata de la instalación de Debian 8 en VirtualBox, en un s
 Vamos a crear una máquina virtual básica y en la que haremos una instalación limpia de Debian 8, luego, esta máquina la utilizaremos como template y la clonaremos, así, si luego necesitaremos un nuevo entorno para otro proyecto, no necesitaremos perder tiempo instalando Debian de nuevo. Empecemos.
 
 1. Clic en Nuevo, he introducimos el nombre y la versión de linux a instalar:
-![Imagen 1]({{ site.base-url }}/img/VB-imagen-1.png)
+![Imagen 1]({{ site.baseurl }}/img/VB-imagen-1.png)
 
 2. Configuramos la máquina virtual con 512mb de Ram y creamos un disco virtual(VDI), reservado dinamicamente de 40GB.
 3. Arrancamos la máquina virtual y seleccionamos la ruta a la imagen ISO que hemos descargado previamente.
-![Imagen 2]({{ site.base-url }}/img/VB-imagen-2.png)
+![Imagen 2]({{ site.baseurl }}/img/VB-imagen-2.png)
 
 4. Iniciamos la instalación de manera normal (En mi caso escogí la opción por defecto, no la instalación gráfica). La configuración es a gusto del lector.
 5. Cuando nos aparezca la pantalla de elección de los programas a instalar, elegimos unicamente: SSH Server y las utilidades estandar del sistema. Para elegir o eliminar una opción utilizaremos la barra espaciadora. para aceptar usaremos la tecla enter. Debería quedar así (El puntero en rojo es indiferente):
-![Imagen 3]({{ site.base-url }}/img/VB-imagen-3.png)
+![Imagen 3]({{ site.baseurl }}/img/VB-imagen-3.png)
 
 6. Una vez instalado el sistema operativo, apagamos la máquina virtual para clonarla.
 
 ## Clonación de la máquina virtual.
 Es tan fácil como hacer clic con el botón derecho del ratón y elegir: clonar, reinicializar las mac de las tarjetas de red y elegir una clonación completa.
-![Imagen 4]({{ site.base-url }}/img/VB-imagen-4.png)
+![Imagen 4]({{ site.baseurl }}/img/VB-imagen-4.png)
 
 ## Configuración del reenvío de puertos y del fichero Config de la máquina cliente.
 
 Elegimos la máquina virtual que nos ha clonado y accedemos a configuración, nos vamos al apartado de red, hacemos click en avanzado y en reenvío de puertos.
 
-![Imagen 5]({{ site.base-url }}/img/VB-imagen-5.png)
+![Imagen 5]({{ site.baseurl }}/img/VB-imagen-5.png)
 
 Ahí, configuramos los puertos 22 para la conexión SSH y el 3000 para el servidor node.
 
-![Imagen 6]({{ site.base-url }}/img/VB-imagen-6.png)
+![Imagen 6]({{ site.baseurl }}/img/VB-imagen-6.png)
 
 El siguiente paso es el crear un fichero config, dentro de la carpeta ssh que se encuentra en la raíz del usuario: `Directorio raíz del usuario/.ssh/config` para así poder conectarnos mediante una terminal, y poder copiar y pegar comandos, además de ser mucho más cómodo con el tiempo.
 
@@ -57,7 +57,7 @@ Arrancamos nuestra máquina virtual e iniciamos con el usuario que creamos en la
 
 Si el servicio está activado, devería aparecer una fila como esta:
 
-![Imagen 7]({{ site.base-url }}/img/VB-imagen-7.png)
+![Imagen 7]({{ site.baseurl }}//img/VB-imagen-7.png)
 
 Ahora, podemos ejecutar en una terminal de nuestra máquina anfitrina el siguiente comando, para conectarnos a la máquina virtual:
 
@@ -67,4 +67,4 @@ Ahora, podemos ejecutar en una terminal de nuestra máquina anfitrina el siguien
 
 Si hemos realizado la configuración correcta nos pedirá confirmar la autenticidad del host. y pondremos nuestra contraseña. ¡Y tenemos nuestro terminal conectado a nuestra máquina invitada!
 
-![Imagen 8]({{ site.base-url }}/img/VB-imagen-8.png)
+![Imagen 8]({{ site.baseurl }}/img/VB-imagen-8.png)

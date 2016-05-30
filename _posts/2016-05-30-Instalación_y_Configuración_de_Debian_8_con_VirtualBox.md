@@ -15,7 +15,7 @@ En esta ocasión, se trata de la instalación de Debian 8 en VirtualBox, en un s
 Vamos a crear una máquina virtual básica y en la que haremos una instalación limpia de Debian 8, luego, esta máquina la utilizaremos como template y la clonaremos, así, si luego necesitaremos un nuevo entorno para otro proyecto, no necesitaremos perder tiempo instalando Debian de nuevo. Empecemos.
 
 1. Clic en Nuevo, he introducimos el nombre y la versión de linux a instalar:
-![Imagen 1](assets/30-05-2016/images/VB-imagen-1.png)
+![Imagen 1](/assets/30-05-2016/images/VB-imagen-1.png)
 
 2. Configuramos la máquina virtual con 512mb de Ram y creamos un disco virtual(VDI), reservado dinamicamente de 40GB.
 3. Arrancamos la máquina virtual y seleccionamos la ruta a la imagen ISO que hemos descargado previamente.

@@ -1,4 +1,7 @@
-# Instalación y Configuración de Debian 8 con VirtualBox.
+layout: post
+title:  "Instalación y Configuración de Debian 8 con VirtualBox."
+date:   2016-05-30 20:00:17 +0100
+categories: Debian VirtualBox
 
 ## Introducción.
 

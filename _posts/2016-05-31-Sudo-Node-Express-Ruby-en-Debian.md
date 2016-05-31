@@ -4,7 +4,6 @@ title:  "Instalación de Node, Express y Ruby en Debian 8"
 date:   2016-05-31 11:01:17 +0100
 categories: Node Express Ruby
 ---
-# Instalación de Node, Express y Ruby en Debian 8
 
 ## Antes de todo. Instalación del comando sudo y agregar nuestro usuario como un usuario con privilegios.
 Debido a que acabo de instalar Debian, me veo obligado a instalar y configurar el comando sudo, debido a la comodidad que este supone.

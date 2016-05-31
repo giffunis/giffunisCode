@@ -43,6 +43,7 @@ En mi caso:
 ![Imagen de mi caso]({{ site.baseurl }}/img/2016/05/31/VB-img-1.png)
 
 A continuación debemos arrancar la máquina virtual e instalar las Guest-Additions.
+
 ### Instalando las Guest-Additions
 
 - Montamos el Cd de las Guest-Additions, Devices -> Insert Guest Additions Image...

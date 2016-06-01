@@ -17,6 +17,10 @@ En este tutorial, no me centraré en la instalación de cada componente, debido 
 
 ## Empecemos
 
-Nos dirigiremos a la carpeta compartida de mi máquina virtual, para así poder acceder a los ficheros mediante mi editor favorito, Atom.io; Una vez allí, ejecutamos lo siguiente para arrancar yeoman y express-generator:
+Nos dirigiremos a la ruta donde queramos crear nuestro repo. Una vez allí, ejecutamos lo siguiente para arrancar yeoman y express-generator:
 
 		$ yo express
+
+Yo he elegido las siguientes opciones:
+
+![Mi configuración]({{ site.baseurl }}/img/2016/06/01/img-1.png)

@@ -14,3 +14,9 @@ En este tutorial, no me centraré en la instalación de cada componente, debido 
 - [Instalación de Yeoman.](http://yeoman.io/learning/index.html)
 - [Instalación de generator-express.](https://github.com/petecoop/generator-express)
 - [Instalación de MongoDB.](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-debian/)
+
+## Empecemos
+
+Nos dirigiremos a la carpeta compartida de mi máquina virtual, para así poder acceder a los ficheros mediante mi editor favorito, Atom.io; Una vez allí, ejecutamos lo siguiente para arrancar yeoman y express-generator:
+
+		$ yo express
